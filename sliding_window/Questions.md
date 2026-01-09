@@ -14,7 +14,9 @@
   ## ⏱️ Complexity
     - Time Complexity: O(n)
     - Space Complexity: O(1)
-  
+
+---
+
 # 2932. Maximum Strong Pair XOR I 
 [Link](https://leetcode.com/problems/maximum-strong-pair-xor-i/?envType=problem-list-v2&envId=sliding-window)
   ## Solution
@@ -24,4 +26,20 @@
   ## ⏱️ Complexity
     - Time Complexity: O(n^2)
     - Space Complexity: O(1)
-  
+
+---
+# 3090. Maximum Length Substring With Two Occurrences
+[Link](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/?envType=problem-list-v2&envId=sliding-window)
+  ## Solution
+    1.This problem can be done using Brute for because constraints are small.
+    2.Using two pointer approach we will maintain a window.
+    3.increasing right and increasing frequency of current char and checking
+      if it is more than 2 if so we will reduce the freq from left side char
+      using a while loop till current chart= freq is == 2.
+      for every outer iteration we store maxLen.
+    4.even though there are nested loop time complexity is O(n) because 
+      loop is moving linearly.
+
+  ## ⏱️ Complexity
+    - Time Complexity: O(n)
+    - Space Complexity: O(1)
