@@ -14,3 +14,14 @@
   ## ⏱️ Complexity
     - Time Complexity: O(n)
     - Space Complexity: O(1)
+  
+# 2932. Maximum Strong Pair XOR I 
+[Link](https://leetcode.com/problems/maximum-strong-pair-xor-i/?envType=problem-list-v2&envId=sliding-window)
+  ## Solution
+    1.This is a simple question that can be solved using nested for loops
+    2.Brute force works because constraints are in range of length 50
+
+  ## ⏱️ Complexity
+    - Time Complexity: O(n^2)
+    - Space Complexity: O(1)
+  
