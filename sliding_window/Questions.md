@@ -43,3 +43,14 @@
   ## ⏱️ Complexity
     - Time Complexity: O(n)
     - Space Complexity: O(1)
+
+# 3206. Alternating Groups I
+[Link](https://leetcode.com/problems/alternating-groups-i/?envType=problem-list-v2&envId=sliding-window)
+  ## Solution
+    1.This is a simple problem as we need to maintain a window of 3.
+    2.each element is filled withi either 1 or 0 so we calculate remainder using % and
+      compare all the remainders stored in a,b,c as a!=b and b!=c
+
+  ## ⏱️ Complexity
+    - Time Complexity: O(n)
+    - Space Complexity: O(1)
