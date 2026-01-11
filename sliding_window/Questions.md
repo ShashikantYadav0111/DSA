@@ -28,6 +28,7 @@
     - Space Complexity: O(1)
 
 ---
+
 # 3090. Maximum Length Substring With Two Occurrences
 [Link](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/?envType=problem-list-v2&envId=sliding-window)
   ## Solution
@@ -44,12 +45,28 @@
     - Time Complexity: O(n)
     - Space Complexity: O(1)
 
+---
+
 # 3206. Alternating Groups I
 [Link](https://leetcode.com/problems/alternating-groups-i/?envType=problem-list-v2&envId=sliding-window)
   ## Solution
     1.This is a simple problem as we need to maintain a window of 3.
     2.each element is filled withi either 1 or 0 so we calculate remainder using % and
       compare all the remainders stored in a,b,c as a!=b and b!=c
+    3.if condition holds we increase thie count.
+
+  ## ⏱️ Complexity
+    - Time Complexity: O(n)
+    - Space Complexity: O(1)
+
+---
+
+# 414. Third Maximum Number
+[Link](https://leetcode.com/problems/third-maximum-number/description/?envType=problem-list-v2&envId=array)
+  ## Solution
+    1.using TreeSet which sorts the element added to set by default ,if set size> 3 remove 
+      the first element(smallest);
+    2.after first operation if st size==3 return set.first else return set.last
 
   ## ⏱️ Complexity
     - Time Complexity: O(n)
