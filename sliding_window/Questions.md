@@ -71,3 +71,14 @@
   ## ⏱️ Complexity
     - Time Complexity: O(n)
     - Space Complexity: O(1)
+
+---
+
+# 180. Consecutive Numbers
+[Link](https://leetcode.com/problems/consecutive-numbers/description/)
+  ## Solution
+    1.ORDER BY id → ensures correct row sequence.
+    2.LAG(num,1) → previous row value.
+    3.LAG(num,2) → value two rows back.
+    4.num = prev1 AND num = prev2 → confirms 3 consecutive identical numbers.
+    5.DISTINCT → avoids duplicate results.
