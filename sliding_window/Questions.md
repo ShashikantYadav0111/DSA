@@ -82,3 +82,12 @@
     3.LAG(num,2) → value two rows back.
     4.num = prev1 AND num = prev2 → confirms 3 consecutive identical numbers.
     5.DISTINCT → avoids duplicate results.
+
+---
+
+# 180. Employees Earning More Than Their Managers
+[Link](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)
+  ## Solution
+    1.using same table twice one copy represent employee and other represent managers
+    2.Join them on e.manageId = m.id and compare salary e.salary>m.salary.
+    3.we are selecting -> e.name
