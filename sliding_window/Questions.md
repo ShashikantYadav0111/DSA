@@ -91,3 +91,11 @@
     1.using same table twice one copy represent employee and other represent managers
     2.Join them on e.manageId = m.id and compare salary e.salary>m.salary.
     3.we are selecting -> e.name
+
+---
+
+# 182. Duplicate Emails
+[Link](https://leetcode.com/problems/duplicate-emails/description/)
+  ## Solution
+    1.First use GROUP BY to group rows having similar values
+    2.Then filter those having COUNT greater than 1;
