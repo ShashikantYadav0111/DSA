@@ -99,3 +99,9 @@
   ## Solution
     1.First use GROUP BY to group rows having similar values
     2.Then filter those having COUNT greater than 1;
+
+# 183. Customers Who Never Order
+[Link](https://leetcode.com/problems/customers-who-never-order/description/)
+  ## Solution
+    1.Select name from Customers as Customers
+    2.using where clause filter those customerId that are not in Orders table
