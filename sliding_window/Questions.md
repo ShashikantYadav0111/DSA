@@ -100,8 +100,19 @@
     1.First use GROUP BY to group rows having similar values
     2.Then filter those having COUNT greater than 1;
 
+---
+
 # 183. Customers Who Never Order
 [Link](https://leetcode.com/problems/customers-who-never-order/description/)
   ## Solution
     1.Select name from Customers as Customers
     2.using where clause filter those customerId that are not in Orders table
+
+---
+
+# 184. Department Highest Salary
+[Link](https://leetcode.com/problems/department-highest-salary/description/)
+  ## Solution
+    1.Finds highest salary per department.
+    2.Join back to Employee to get employee name(s) who have that salary.
+    3.Join with Department to get department name.
