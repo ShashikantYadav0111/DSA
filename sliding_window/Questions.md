@@ -120,7 +120,7 @@
 ---
 
 # 196. Delete Duplicate Emails
-[Link](https://leetcode.com/problems/department-highest-salary/description/)
+[Link](https://leetcode.com/problems/delete-duplicate-emails/)
   ## Solution
     1.The table is joined with itself to find rows that have the same email but a larger id than another row.
     2.Any row with a larger id is considered a duplicate and selected for deletion.
