@@ -116,3 +116,12 @@
     1.Finds highest salary per department.
     2.Join back to Employee to get employee name(s) who have that salary.
     3.Join with Department to get department name.
+
+---
+
+# 196. Delete Duplicate Emails
+[Link](https://leetcode.com/problems/department-highest-salary/description/)
+  ## Solution
+    1.The table is joined with itself to find rows that have the same email but a larger id than another row.
+    2.Any row with a larger id is considered a duplicate and selected for deletion.
+    3.The row with the smallest id for each email remains, all others are deleted.
