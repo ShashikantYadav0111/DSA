@@ -125,3 +125,12 @@
     1.The table is joined with itself to find rows that have the same email but a larger id than another row.
     2.Any row with a larger id is considered a duplicate and selected for deletion.
     3.The row with the smallest id for each email remains, all others are deleted.
+
+---
+
+# 511. Game Play Analysis I
+[Link](https://leetcode.com/problems/game-play-analysis-i/description/)
+  ## Solution
+    1.GROUP BY player_id groups all rows belonging to the same player.
+    2.MIN(event_date) selects the earliest login date within each player group.
+    3.The query returns one row per player with their first login date.
