@@ -134,3 +134,13 @@
     1.GROUP BY player_id groups all rows belonging to the same player.
     2.MIN(event_date) selects the earliest login date within each player group.
     3.The query returns one row per player with their first login date.
+
+---
+
+# 586. Customer Placing the Largest Number of Orders
+[Link](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/)
+  ## Solution
+    1.Groups all orders per customer.
+    2.Counts how many orders each customer placed. COUNT(*)
+    3.Sorts customers from highest order count to lowest. USING ORDER BY DESC
+    4.Returns only the top customer. USING LIMIT 1
