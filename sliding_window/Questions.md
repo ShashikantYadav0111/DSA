@@ -145,9 +145,19 @@
     3.Sorts customers from highest order count to lowest. USING ORDER BY DESC
     4.Returns only the top customer. USING LIMIT 1
 
+---
+
 # 596. Classes With at Least 5 Students
 [Link](https://leetcode.com/problems/classes-with-at-least-5-students/description/)
   ## Solution
     1.Groups all Courses using GROUP BY class .
     2.Counts how many class each customer placed. COUNT(*);
     3.use having clause HAVING COUNT(*) >= 5
+
+---
+
+# 607. Sales Person
+[Link](https://leetcode.com/problems/sales-person/description/  )
+  ## Solution
+    1.slect sales_id by joining Order o and Company c table where c.name = 'RED'.
+    2.Select name from SalesPerson table where sales_id no in above resulting group.
