@@ -159,5 +159,14 @@
 # 607. Sales Person
 [Link](https://leetcode.com/problems/sales-person/description/  )
   ## Solution
-    1.slect sales_id by joining Order o and Company c table where c.name = 'RED'.
+    1.select sales_id by joining Order o and Company c table where c.name = 'RED'.
     2.Select name from SalesPerson table where sales_id no in above resulting group.
+
+---
+
+# 610. Triangle Judgement
+[Link](https://leetcode.com/problems/triangle-judgement/description/)
+  ## Solution
+    1.select the values x, y, and z from the table.
+    2.use a CASE statement to check whether the sum of every two sides is greater than the third side.
+    3.If all conditions are true, return 'Yes'; otherwise, I return 'No' in the triangle column.
