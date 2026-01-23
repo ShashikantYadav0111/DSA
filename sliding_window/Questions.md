@@ -170,3 +170,11 @@
     1.select the values x, y, and z from the table.
     2.use a CASE statement to check whether the sum of every two sides is greater than the third side.
     3.If all conditions are true, return 'Yes'; otherwise, I return 'No' in the triangle column.
+
+---
+
+ # 619. Biggest Single Number
+[Link](https://leetcode.com/problems/biggest-single-number/description/)
+  ## Solution
+    1.SELECT num FROM TABLE and GROUP BY num and use having clause to filter rows having COUNT(*) = 1.
+    2.SELECT MAX of resulting SET.
