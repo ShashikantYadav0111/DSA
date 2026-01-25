@@ -178,3 +178,12 @@
   ## Solution
     1.SELECT num FROM TABLE and GROUP BY num and use having clause to filter rows having COUNT(*) = 1.
     2.SELECT MAX of resulting SET.
+
+---
+
+ # 627. Swap Sex of Employees
+[Link](https://leetcode.com/problems/swap-sex-of-employees/description/)
+  ## Solution
+    1.Using UPDATE AND SET to set new values.
+    2.Use Case as WHEN sex = 'm' THEN 'f' and WHEN sex = 'f' THEN 'm'
+
