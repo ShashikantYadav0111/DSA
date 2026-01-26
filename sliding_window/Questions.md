@@ -185,5 +185,5 @@
 [Link](https://leetcode.com/problems/swap-sex-of-employees/description/)
   ## Solution
     1.Using UPDATE AND SET to set new values.
-    2.Use Case as WHEN sex = 'm' THEN 'f' and WHEN sex = 'f' THEN 'm'
+    2.Use Case as WHEN sex = 'm' THEN 'f' and WHEN sex = 'f' THEN 'm'.
 
